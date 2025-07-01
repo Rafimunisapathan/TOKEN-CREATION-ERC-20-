@@ -1,0 +1,28 @@
+# TOKEN CREATION (ERC-20)
+
+ // SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+contract CodTechToken is ERC20 {
+    constructor(uint256 initialSupply) ERC20("CodeTechToken", "CTT") {
+        _mint(msg.sender, initialSupply * (10 ** decimals()));
+    }
+}
+const hre = require("hardhat");
+
+async function main() {
+  const CodTechToken = await hre.ethers.getContractFactory("CodTechToken");
+  const token = await CodTechToken.deploy(1000000); // 1 million supply
+  await token.deployed();
+
+  console.log("CodTechToken deployed to:", token.address);
+}
+
+main().catch((error) => {
+  console.error(error});
+process.exitCode = 1;
+});
+
+
