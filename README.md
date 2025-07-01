@@ -21,5 +21,5 @@ I install some libraries and i gave code it gave me out put one is sample and ou
 #OUTPUT#
 
 ![Image](https://github.com/user-attachments/assets/e7156ebd-5731-4e35-a517-29091ab744ed)
-![Image](https://github.com/user-attachments/assets/77d02be9-c39b-4879-a069-4b5a3c0bc796)
+![Image](https://github.com/user-attachments/assets/5c6e7c5e-f2fb-4c3f-8b16-97a429c697d2)
 
