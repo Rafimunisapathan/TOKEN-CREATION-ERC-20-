@@ -20,3 +20,5 @@ I install some libraries and i gave code it gave me out put one is sample and ou
 
 #OUTPUT#
 
+![Image](https://github.com/user-attachments/assets/e7156ebd-5731-4e35-a517-29091ab744ed)
+
